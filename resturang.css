@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #7fa6b8, #1e2f4f);
+}
+
+
+.hero {
+    background-image: url("./omr_vastkusten.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 100px;
+    font-size: 40px;
+    color: darkred;
+    text-shadow: 1px 1px black;
+    font-family: Jacques Francois Shadow, serif;
+}
+
+
+nav {
+    background-color: #ccc;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    padding: 50px;
+}
+
+.map img {
+    width: 300px;
+}
+
+.info-box {
+    background-color: lightgray;
+    padding: 30px;
+    width: 300px;
+    font-size: 18px;
+}
+
+
+.menu-box {
+    background-color: lightgray;
+    width: 60%;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.menu-box h2 {
+    text-align: center;
+}
+
+.menu-box ul {
+    margin-bottom: 30px;
+}
